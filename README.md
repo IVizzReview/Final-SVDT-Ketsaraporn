@@ -7,7 +7,8 @@
 * http://localhost:8080/AddmissionPdbPage
 
 เข้าถึงหลังบ้านโดย
-* http://localhost:9004/
+* http://localhost:9004/search-c-pdb
+
 การค้นหาให้ใส่ชื่อคณะ
 * http://localhost:9004/search-c-pdb?tags=เทคโนโลยีสารสนเทศ
 
