@@ -1,0 +1,11 @@
+version: "3"
+services:
+  back-end: 
+    build: "./Backend"
+    ports:
+      - "9004:9004"
+  front-end:
+    build: "./Frontend"
+    ports: 
+      - "8080:8080"
+      
