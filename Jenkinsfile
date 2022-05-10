@@ -11,7 +11,7 @@ pipeline {
         stage('Docker build & deploy with docker-compose'){
             steps{
                 bat "docker run -d -p 50000:50000"
-                bat "docker-compose up --build"
+                bat "docker-compose up -d"
             }
         }
     }
